@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Portfolio Details - Folio Bootstrap Template</title>
+    <title>AI Medical Transcription</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -84,13 +84,7 @@
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
             <h2>AI Medical Transcription</h2>
-            <!--
-            <ol>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="index.html#portfolio">Portfolio</a></li>
-              <li>AI Medical Transcription</li>
-            </ol>
-            -->
+            
           </div>
         </div>
       </section>
@@ -131,7 +125,12 @@
               <div class="portfolio-info">
                 <h3>Highlights</h3>
                 <p>
-                  Restricted by Covid 19, I analyzed user painpoints remotely, tranformed them into actionable strategy for internal teams, coordinating software update and test by efficient communication with hospital IT staff.
+                  I coordinated the improvement of the product 
+                  with both the internal team and hospital staff, 20+ people in total.
+                  Regardless of the physical limits due to the Covid-19, I conducted 
+                  a UX research and facilitated the new release in 4 weeks.       
+                  The nurses found the latest version much more suitable for 
+                  their professional documentation needs.
                 </p>
               </div>
             </div>
@@ -160,7 +159,17 @@
                   </div>           
                                    
                   <p class="mb-30">  
-                   A Taiwanese hospital used our medical AI transcription software embedded in their HIS (Hospital Information System) to improve nursing documentation efficiency. After a one-month trial, the usage showed a significant decrease. <ins>The nurses conveyed that speech recognition did not prove to be faster than traditional typing. However, the recognition rate reached 90%, so we suspected there were other underlying factors causing the decline.</ins>
+                    Our company's AI medical transcription software has been introduced 
+                    in some Taiwanese hospitals. The software was embeded in their hospital 
+                    information system, as an alternative for medical documentation.
+                    <ins>One hospital adopted the new tool for half a year, but I found their usage
+                    gradually decreased after the one-month trial.</ins><BR><BR>
+            
+                    The nurses complained that speech recognition was not 
+                      faster than typing and clicking. <ins>Our team investigated the recognition rate,  
+                      but it reached 90%, which met our standard. To find out the root cause and 
+                      improved the product, I organized a remote UX research to clarify the problem.
+                     </ins>
                   </p>
                                     
                   <img
@@ -175,7 +184,7 @@
                     </h2>
                   </div>                  
                   <p class="mb-30">
-                    Though our nurses complainted that the new system didn’t improve their work efficiency, it was still too ambiguous to detect what the problem was. Thus, I adopted three steps to specify the problem.
+                    To turn nurses' complains into actions, I adopted three steps to specify the problem.
                   </p>
 
                   <div class="journal-txt">
@@ -185,9 +194,19 @@
                   </div>
                   
                   <p class="mb-30">
-                    By interviewing the nurses remotely, I found 
-                    <ins>patients hospitalized for the first time requires the nurses three times of time to finish the medical documentation.</ins>
-                     Therefore, the nursing director and I agreed on setting situation one(first-time hospitalization) as the main target.
+                    <ins>By interviewing the nurses remotely, I found 
+                    it took nurses 20 minutes to finish the admission records for the first-time patients, 
+                      which was three times longer than chronic patients.
+                    </ins> First-time patients had to fill in their background information, allergy, and medical history - 
+                    which included 100+ questions. Nurses usually stayed nearby the bed, 
+                    asking questions and writing it down on a paper. After that, nurses had to 
+                    key in all the answers in the system when they went back to the nursing station. 
+                    If they got busy, the e-documentation would be delayed. 
+                    AI medical transcription allows nurses to fill in the form by speech recognition.
+                    
+                   <ins>Both the nursing director and I agreed that the documentation for the first-time patients 
+                    can bring significant improvement, and it turned out to be our target scenario.</ins>
+                     
                   </p>
                   <img
                   src="assets/img/ai-medical-2.webp"
@@ -201,22 +220,31 @@
                   </h3>
                 </div>
                 <p class="mb-30">
-                  Limited by Covid 19, I made a plan for remote troubleshooting - 
+                  Limited by the Covid 19, I made a quick plan for remote troubleshooting - 
                   2 days collecting bug logs and screen recording from the hospital system, 
-                  1 days video analysis, and 2 days voice recognition bug analysis.                
+                  1 day video analysis, and 2 days voice recognition bug analysis.
+                  Only the videos were offered by nurses, while the other data was 
+                  retreieved from our backend site. <ins>With limited time, I negotiated with our
+                  technical PM with the task details, my expectation and timeline</ins>, so the speech-to-text(STT) 
+                  correctness can be calculated in time. 
+                                
                 </p>
 
                 <p class="mb-30">
-                  <ins>From users' video recording logs, I analyzed the data with Excel, finding that the nurses had to speak a lot for 
-                  filling in entries - about 8~10 words for 1 question on the admission note. </ins>
-                  This caused them burden, let alone to repeating words if there was any mistake.
+                    Logs were quite messy with unrecognizable and repeated STT. <ins>I cleaned and sorted the data on Excel, 
+                    observing the usage amount of each nursing unit, and the sentences that were incorrectly recognized.
+                    I found that nurses had to speak 8 to 10 words for 1 question on average.</ins>
+                    To finish a form, they may need to speak 800 to 1000 Chinese words, which was definitely a burden.
+                    So I started to think about how nurses can speak fewer to fill in the same form.
+                    
                 </p>
 
                 <p class="mb-30">
-                   Additionally, <ins>I analyzed the screen recording of how nurses used our AI software, and visualized
-                  them into a step-by-step process chart.</ins> The chart(see below) indicates that the overall process of 
-                  activating voice recognition and finishing one entry involved multiple clicking, 
-                   which made no significant improvement in terms of efficiency.
+                   Additionally, <ins>I analyzed the videos from nurses by breaking their screen behaviors into actions, and visualized
+                  them into a step-by-step process chart (below).</ins> The chart indicated that 
+                  AI transcription involved multiple clicks, from activating the software, adding an entry, moving to next page, editing and deleting a record, 
+                   nurses had to click on the button on our software, or moving it around so the form was not hidden by the front-end AI tool window.
+                   <ins>Though the total clicks was not as many as typing, this result can neither convince nurses the efficiency of the new tool.</ins>
                 </p>
                 
                 <img
@@ -232,10 +260,10 @@
                   </h3>
                 </div>
                 <p class="mb-30">
-                  Through user interview and behavior analysis, I can summarize the main problem - 
-                  nurses had to say a lot for entering the admission note correctly and completely.
-                  Thus, I concluded the main goal for our team - 
-                  <ins>How to fill in the admission note without reading aloud questions by questions?</ins>                 
+                  Through user interview and behavior analysis, I summarized the main problem - 
+                  nurses had to talk a lot to enter the data correctly and completely.
+                  <ins>I brought up this main painpoint to the R&D team, encouraging any ideas to have
+                   nurses fill in the admission note without reading each question aloud.</ins>                 
                 </p>
 
                 <img
@@ -251,9 +279,16 @@
                 </div>           
                                  
                 <p class="mb-30">  
-                  To make sure all the stakeholders on the same page, <ins>I coordinated opinions from nurses, hospital IT staff, engineers in our team, to develope an optimized solution</ins>
-                   - using shorten key sentences. By collecting common sentences that nurses were used to speak, I listed lingusitc patterns for engineers in my team to retrain the AI model. 
-                  The updated version supported shorter commands for entering the medical record.
+                  In solution brainstorming, <ins>I first collected possible solutions with our engineers and designers. 
+                  Our proposal was to shorten the key sentences.</ins> For example, instead of saying 
+                  <strong>"Blood pressure 120 over 60. Consciousness clear. Left hand and right hand, 
+                    muscle power normal. Breathing rate normal."</strong>
+                  , nurses can simply say <strong>"Blood pressure 120 over 60."</strong> 
+                  The rest of the questions would be set as normal by default.
+                  
+                  Later <ins>I held an online meeting with hospital IT staff and nurses, 
+                  introducing our proposal, and makinng sure the feasibility and the 
+                  schedule of the updated version.</ins>
                 </p>
 
                 <img
@@ -270,11 +305,16 @@
               </div>           
                                
               <p class="mb-30">  
-                After one-month of redesign and development, we released the new version. 
-                The nurses said the new design fit in their clinical work habits much more than the previous version. 
-                , doubling the efficiency of medical transcription. Some nurses reflected that they started to 
-                experience the benefits of voice recognition and looked forward to 
-                more applicaiton in other nursing documentation.  
+                After one month, we released the new version. 
+                The nurses said the new design allowed them to speak naturally
+                 with professional terms they frequently said. 
+                What's more, since the normal vital sign can be checked automatically, 
+                nurses saved lots of time and energy. They said, <ins>"most patients are partly ill,
+                so reading every normal vital sign is not smarter than clicking. 
+                " However, since we modified the languague pattern to be more flexible,
+                nurses could pay more attention on describing the illness.</ins>
+                Overall, the new version was a success and triggered the excitement for nurses 
+                to give it a try.
               </p>
 
               <div class="mb-30">
@@ -293,21 +333,20 @@
                                
               <p class="mb-30">  
                 From this project, I know more about the workflow of nurse documentation. 
-                Nurses care about efficiency. As a result, when designing the AI medical 
-                transcription, I realized it is essential to be simple. 
-              <p>
-                <blockquote>
-                  The AI tool should be well-integrated with their existing HIS, 
-                  and the number of voice-recognition commands should be 
-                  less than three types. 
-                  Otherwise, the overall documentation efficiency 
-                  will not surpass the typing.
-                </blockquote>
-                
-              <p class="mb-30"> 
-                Since the product is still in the trial period, rapid testing and feedback are crucial. This time, video recording analysis helped me discover the underlying problem efficiently. However, though screen recording is a time-saving alternative for behavior analysis, I prefer visiting the hospital in-person, since it is easier to clarify problems in a more comprehensive way.  
-              </p>
+                Nurses care about efficiency, correctness, and simplicity. 
+                <ins>In the previous version, our team focused on correctness, pursuing a higher recognition rate, 
+                but simplicity was ignored.</ins> Medical transcription is different from the general STT technology used in 
+                Siri or Google assistant. The medical STT model has to recognize the phrases commonly 
+                used by nurses. <ins>If nurses are limited to follow certain linguistic rules, they will
+                feel fatigued and give up this tool.</ins> <br><br>
 
+                There are still things to be improved. For example, 
+                To calculate the recognition correctness rate, it sometimes relies on someone 
+                who is familiar with nursing forms, but I am the only expert in our team. To share my loading, 
+                I created an instruction slide, so interns can help me with the job. 
+                Furthermore, <ins>we didn't have a dashboard system that can generate usage data regularly. 
+                If we had had one, we could have discovered the problem earlier. </ins>
+                </p>
                 </div>
               </div>
             </div>
@@ -349,7 +388,7 @@
           </ul>
         </div>
 
-        <p>&copy; Copyrights Folio. All rights reserved.</p>
+        <p>&copy; 2024 Yi-Shan Hsieh. All Rights Reserved.</p>
 
         <div class="credits">
           <!--
@@ -358,7 +397,7 @@
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
       -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Template by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
     </div>
